@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import android.widget.TextView
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -36,9 +37,25 @@ class MostrarFragment : Fragment() {
 
         val recyclerView = root.findViewById<RecyclerView>(R.id.recyclerView)
         val adapter = CustomAdapter()
+        //cargarEtiquetas(recyclerView,adapter)
+        binding.btnActualizar.setOnClickListener {
+            cargarEtiquetas(recyclerView,adapter)
+            Toast.makeText(requireContext(),"Actualizado",Toast.LENGTH_LONG).show()
+        }
+
+        adapter.setOnItemClickListener(object :CustomAdapter.onItemClickListener{
+            override fun onItemClick(position: Int) {
+                var nombre = adapter.nombre[position]
+                Toast.makeText(requireContext(),"Seleccionaste: ${nombre}",Toast.LENGTH_LONG).show()
+            }
+
+        })
+
+        return root
+    }
+    fun cargarEtiquetas(recyclerView:RecyclerView,adapter: CustomAdapter){
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
         recyclerView.adapter = adapter
-        return root
     }
 
     override fun onDestroyView() {
