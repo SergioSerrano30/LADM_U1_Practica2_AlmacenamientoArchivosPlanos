@@ -2,27 +2,29 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mobile_navigation.xml"
-    app:startDestination="@id/nav_mostrar">
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_mostrar">
 
     <fragment
         android:id="@+id/nav_mostrar"
         android:name="mx.tecnm.ladm_u1_practica2_almacenamientoarchivosplanos.ui.mostrar.MostrarFragment"
-        android:label="fragment_mostrar"
+        android:label="@string/menu_home"
         tools:layout="@layout/fragment_mostrar" />
+
     <fragment
         android:id="@+id/nav_insertar"
         android:name="mx.tecnm.ladm_u1_practica2_almacenamientoarchivosplanos.ui.insertar.InsertarFragment"
-        android:label="fragment_insertar"
+        android:label="@string/menu_insertar"
         tools:layout="@layout/fragment_insertar" />
+
     <fragment
         android:id="@+id/nav_modificar"
         android:name="mx.tecnm.ladm_u1_practica2_almacenamientoarchivosplanos.ui.modificar.ModificarFragment"
-        android:label="fragment_modificar"
+        android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_modificar" />
     <fragment
         android:id="@+id/nav_eliminar"
-        android:name="mx.tecnm.ladm_u1_practica2_almacenamientoarchivosplanos.ui.eliminar.eliminar"
-        android:label="eliminar"
+        android:name="mx.tecnm.ladm_u1_practica2_almacenamientoarchivosplanos.eliminar"
+        android:label="fragment_eliminar"
         tools:layout="@layout/fragment_eliminar" />
 </navigation>

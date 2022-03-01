@@ -1,4 +1,4 @@
-package mx.tecnm.ladm_u1_practica2_almacenamientoarchivosplanos.ui.slideshow
+package mx.tecnm.ladm_u1_practica2_almacenamientoarchivosplanos.ui.insertar
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import mx.tecnm.ladm_u1_practica2_almacenamientoarchivosplanos.databinding.FragmentSlideshowBinding
+import mx.tecnm.ladm_u1_practica2_almacenamientoarchivosplanos.databinding.FragmentInsertarBinding
 
-class SlideshowFragment : Fragment() {
+class InsertarFragment : Fragment() {
 
-    private var _binding: FragmentSlideshowBinding? = null
+    private var _binding: FragmentInsertarBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -22,16 +22,13 @@ class SlideshowFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val slideshowViewModel =
-            ViewModelProvider(this).get(SlideshowViewModel::class.java)
+        val galleryViewModel =
+            ViewModelProvider(this).get(InsertarViewModel::class.java)
 
-        _binding = FragmentSlideshowBinding.inflate(inflater, container, false)
+        _binding = FragmentInsertarBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textSlideshow
-        slideshowViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
+
         return root
     }
 
