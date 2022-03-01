@@ -3,15 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Tec_Feb-Jun-2022/Lab de App Moviles/Tema 1/LADM_U1_Practica2_AlmacenamientoArchivosPlanos/app/src/main/res/layout/activity_main.xml" value="0.11367753623188406" />
+        <entry key="..\:/Tec_Feb-Jun-2022/Lab de App Moviles/Tema 1/LADM_U1_Practica2_AlmacenamientoArchivosPlanos/app/src/main/res/layout/app_bar_main.xml" value="0.11367753623188406" />
+        <entry key="..\:/Tec_Feb-Jun-2022/Lab de App Moviles/Tema 1/LADM_U1_Practica2_AlmacenamientoArchivosPlanos/app/src/main/res/layout/card_layout.xml" value="0.25" />
         <entry key="..\:/Tec_Feb-Jun-2022/Lab de App Moviles/Tema 1/LADM_U1_Practica2_AlmacenamientoArchivosPlanos/app/src/main/res/layout/content_main.xml" value="0.25" />
-        <entry key="..\:/Tec_Feb-Jun-2022/Lab de App Moviles/Tema 1/LADM_U1_Practica2_AlmacenamientoArchivosPlanos/app/src/main/res/layout/fragment_eliminar.xml" value="0.11367753623188406" />
+        <entry key="..\:/Tec_Feb-Jun-2022/Lab de App Moviles/Tema 1/LADM_U1_Practica2_AlmacenamientoArchivosPlanos/app/src/main/res/layout/fragment_eliminar.xml" value="0.25" />
         <entry key="..\:/Tec_Feb-Jun-2022/Lab de App Moviles/Tema 1/LADM_U1_Practica2_AlmacenamientoArchivosPlanos/app/src/main/res/layout/fragment_gallery.xml" value="0.11367753623188406" />
         <entry key="..\:/Tec_Feb-Jun-2022/Lab de App Moviles/Tema 1/LADM_U1_Practica2_AlmacenamientoArchivosPlanos/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Tec_Feb-Jun-2022/Lab de App Moviles/Tema 1/LADM_U1_Practica2_AlmacenamientoArchivosPlanos/app/src/main/res/layout/fragment_insertar.xml" value="0.25" />
         <entry key="..\:/Tec_Feb-Jun-2022/Lab de App Moviles/Tema 1/LADM_U1_Practica2_AlmacenamientoArchivosPlanos/app/src/main/res/layout/fragment_modificar.xml" value="0.11367753623188406" />
-        <entry key="..\:/Tec_Feb-Jun-2022/Lab de App Moviles/Tema 1/LADM_U1_Practica2_AlmacenamientoArchivosPlanos/app/src/main/res/layout/nav_header_main.xml" value="0.11367753623188406" />
+        <entry key="..\:/Tec_Feb-Jun-2022/Lab de App Moviles/Tema 1/LADM_U1_Practica2_AlmacenamientoArchivosPlanos/app/src/main/res/layout/fragment_mostrar.xml" value="0.25" />
+        <entry key="..\:/Tec_Feb-Jun-2022/Lab de App Moviles/Tema 1/LADM_U1_Practica2_AlmacenamientoArchivosPlanos/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
         <entry key="..\:/Tec_Feb-Jun-2022/Lab de App Moviles/Tema 1/LADM_U1_Practica2_AlmacenamientoArchivosPlanos/app/src/main/res/menu/activity_main_drawer.xml" value="0.2" />
         <entry key="..\:/Tec_Feb-Jun-2022/Lab de App Moviles/Tema 1/LADM_U1_Practica2_AlmacenamientoArchivosPlanos/app/src/main/res/menu/fragment_modificar.xml" value="0.2" />
         <entry key="..\:/Tec_Feb-Jun-2022/Lab de App Moviles/Tema 1/LADM_U1_Practica2_AlmacenamientoArchivosPlanos/app/src/main/res/menu/main.xml" value="0.2" />
+        <entry key="..\:/Tec_Feb-Jun-2022/Lab de App Moviles/Tema 1/LADM_U1_Practica2_AlmacenamientoArchivosPlanos/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.133" />
       </map>
     </option>
   </component>

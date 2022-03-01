@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class InsertarViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is gallery Fragment"
+        value = "Este es el fragmento insertar"
     }
     val text: LiveData<String> = _text
 }
