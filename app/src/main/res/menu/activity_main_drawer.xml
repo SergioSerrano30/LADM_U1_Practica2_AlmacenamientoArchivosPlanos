@@ -5,20 +5,16 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_inicio" />
+        <item
             android:id="@+id/nav_mostrar"
             android:icon="@drawable/ic_baseline_remove_red_eye_24"
             android:title="@string/menu_mostrar" />
         <item
-            android:id="@+id/nav_insertar"
-            android:icon="@drawable/ic_baseline_fiber_new_24"
-            android:title="@string/menu_insertar" />
-        <item
             android:id="@+id/nav_modificar"
             android:icon="@drawable/ic_baseline_edit_24"
             android:title="@string/menu_modificar" />
-        <item
-            android:id="@+id/nav_eliminar"
-            android:icon="@drawable/ic_baseline_delete_24"
-            android:title="@string/menu_eliminar" />
     </group>
 </menu>

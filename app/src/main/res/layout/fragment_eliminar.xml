@@ -13,5 +13,17 @@
         android:textSize="30dp"
         android:textAlignment="center"
         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test"
+        android:id="@+id/btnTest"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblInfo"
+        android:layout_marginTop="20dp"
+        />
 
 </LinearLayout>
