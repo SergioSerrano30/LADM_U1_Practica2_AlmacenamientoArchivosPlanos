@@ -83,7 +83,7 @@ class ModificarFragment : Fragment() {
             leerTodo()
             cargarEtiquetas(recyclerView,adapter)
             Toast.makeText(requireContext(),"Actualizado",Toast.LENGTH_LONG).show()
-        }
+            }
 
         adapter.setOnItemClickListener(object : CustomAdapter.onItemClickListener {
             override fun onItemClick(position: Int) {

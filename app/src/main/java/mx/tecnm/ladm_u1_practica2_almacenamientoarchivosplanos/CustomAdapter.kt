@@ -43,7 +43,7 @@ class CustomAdapter: RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
     }
 
     inner class ViewHolder(itemView: View,listener: onItemClickListener): RecyclerView.ViewHolder(itemView){
-        var itemImage: ImageView= itemView.findViewById(R.id.item_image)
+        //var itemImage: ImageView= itemView.findViewById(R.id.item_image)
         var itemNombre: TextView= itemView.findViewById(R.id.lblNombre)
         var itemEmpresa: TextView= itemView.findViewById(R.id.lblEmpresa)
         var itemCelular: TextView= itemView.findViewById(R.id.lblCelular)
